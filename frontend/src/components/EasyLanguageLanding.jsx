@@ -175,7 +175,7 @@ const EasyLanguageLanding = () => {
                   </CardHeader>
                   <CardContent>
                     <div className="bg-black p-4 rounded-lg border border-gray-800">
-                      <pre className="text-brand-primary text-sm font-mono overflow-x-auto">
+                      <pre className="text-white text-sm font-mono overflow-x-auto">
                         {feature.example}
                       </pre>
                     </div>
@@ -184,8 +184,8 @@ const EasyLanguageLanding = () => {
                         {feature.highlight}
                       </Badge>
                       <div className="text-right">
-                        <div className="text-xs text-gray-400 font-semibold">Fact:</div>
-                        <div className="text-sm text-brand-primary">{feature.fact}</div>
+                        <div className="text-xs text-white font-semibold">Fact:</div>
+                        <div className="text-sm text-white">{feature.fact}</div>
                       </div>
                     </div>
                   </CardContent>
