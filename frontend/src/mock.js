@@ -113,24 +113,24 @@ for each item in list [1, 2, 3, 4, 5]:
 
 export const statsData = [
   {
-    label: "Downloads",
-    value: "50K+",
-    description: "Active developers"
-  },
-  {
-    label: "GitHub Stars", 
-    value: "2.4K",
-    description: "Community support"
-  },
-  {
-    label: "Contributors",
-    value: "150+",
-    description: "Open source contributors"
-  },
-  {
     label: "Performance",
-    value: "99.9%",
-    description: "Reliability score"
+    value: "10x",
+    description: "Faster than Python"
+  },
+  {
+    label: "Learning Speed", 
+    value: "5x",
+    description: "Quicker to master"
+  },
+  {
+    label: "Code Reduction",
+    value: "95%",
+    description: "Less syntax complexity"
+  },
+  {
+    label: "Debug Time",
+    value: "80%",
+    description: "Faster problem solving"
   }
 ];
 
