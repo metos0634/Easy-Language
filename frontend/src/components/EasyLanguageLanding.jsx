@@ -92,7 +92,7 @@ const EasyLanguageLanding = () => {
       {isMenuOpen && (
         <div className="fixed top-20 left-0 right-0 bg-black bg-opacity-95 backdrop-blur-md z-40 md:hidden">
           <nav className="flex flex-col p-6 space-y-4">
-            {navigationItems.map((item) => (
+            {navigationItems.slice(0, 2).map((item) => (
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
@@ -101,10 +101,6 @@ const EasyLanguageLanding = () => {
                 {item.name}
               </button>
             ))}
-            <Button className="btn-primary mt-4">
-              <Download className="h-4 w-4 mr-2" />
-              Download
-            </Button>
           </nav>
         </div>
       )}
