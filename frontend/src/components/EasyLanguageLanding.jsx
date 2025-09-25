@@ -151,7 +151,7 @@ const EasyLanguageLanding = () => {
             <h2 className="display-large text-white mb-4">
               Why Easy Language Is Perfect For You
             </h2>
-            <p className="body-large text-gray-300 max-w-3xl mx-auto">
+            <p className="body-large text-white max-w-3xl mx-auto">
               Experience the power of a language built for speed, simplicity, and success. 
               Here are the facts that make Easy Language revolutionary.
             </p>
