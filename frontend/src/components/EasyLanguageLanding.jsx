@@ -68,7 +68,7 @@ const EasyLanguageLanding = () => {
 
         {/* Desktop Navigation */}
         <nav className="dark-nav hidden md:flex">
-          {navigationItems.map((item) => (
+          {navigationItems.slice(0, 2).map((item) => (
             <button
               key={item.name}
               onClick={() => scrollToSection(item.href)}
@@ -77,10 +77,6 @@ const EasyLanguageLanding = () => {
               {item.name}
             </button>
           ))}
-          <Button className="btn-primary ml-4">
-            <Download className="h-4 w-4 mr-2" />
-            Download
-          </Button>
         </nav>
 
         {/* Mobile Menu Button */}
