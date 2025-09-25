@@ -163,8 +163,5 @@ export const gettingStartedSteps = [
 
 export const navigationItems = [
   { name: "Home", href: "#home" },
-  { name: "Features", href: "#features" },
-  { name: "Examples", href: "#examples" },
-  { name: "Getting Started", href: "#getting-started" },
-  { name: "Documentation", href: "#docs" }
+  { name: "Features", href: "#features" }
 ];
