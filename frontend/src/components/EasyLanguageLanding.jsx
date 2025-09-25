@@ -227,48 +227,6 @@ const EasyLanguageLanding = () => {
         </div>
       </section>
 
-      {/* Getting Started Section */}
-      <section id="getting-started" className="py-20 px-4 md:px-8">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="display-large text-white mb-4">
-              Get Started in Minutes
-            </h2>
-            <p className="body-large text-gray-300 max-w-2xl mx-auto">
-              Follow these simple steps to start coding with Easy Language today.
-            </p>
-          </div>
-
-          <div className="space-y-8">
-            {gettingStartedSteps.map((step, index) => (
-              <div key={step.step} className="flex items-start gap-6">
-                <div className="flex-shrink-0 w-12 h-12 bg-brand-primary text-black rounded-full flex items-center justify-center font-bold text-lg">
-                  {step.step}
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-semibold text-white mb-2">
-                    {step.title}
-                  </h3>
-                  <p className="text-gray-300 mb-3">
-                    {step.description}
-                  </p>
-                  <div className="bg-black p-3 rounded-lg border border-gray-800 font-mono text-sm text-brand-primary">
-                    {step.action}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="text-center mt-12">
-            <Button className="btn-primary text-lg px-8 py-3">
-              <Download className="h-5 w-5 mr-2" />
-              Download Easy Language Now
-            </Button>
-          </div>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="bg-gray-900 py-12 px-4 md:px-8 border-t border-gray-800">
         <div className="max-w-6xl mx-auto">
@@ -279,10 +237,10 @@ const EasyLanguageLanding = () => {
             </div>
             
             <div className="flex gap-6">
-              <button className="text-gray-400 hover:text-brand-primary transition-colors">
+              <button className="text-white hover:text-brand-primary transition-colors">
                 <Github className="h-5 w-5" />
               </button>
-              <button className="text-gray-400 hover:text-brand-primary transition-colors">
+              <button className="text-white hover:text-brand-primary transition-colors">
                 <BookOpen className="h-5 w-5" />
               </button>
             </div>
@@ -290,7 +248,7 @@ const EasyLanguageLanding = () => {
           
           <Separator className="my-6 bg-gray-800" />
           
-          <div className="text-center text-gray-400 text-sm">
+          <div className="text-center text-white text-sm">
             © 2024 Easy Language. Making programming accessible to everyone.
           </div>
         </div>
