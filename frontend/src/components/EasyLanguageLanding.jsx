@@ -26,7 +26,6 @@ import {
 
 const EasyLanguageLanding = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeTab, setActiveTab] = useState('hello');
 
   const iconMap = {
     Code,
