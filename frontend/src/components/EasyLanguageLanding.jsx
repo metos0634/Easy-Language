@@ -173,11 +173,11 @@ const EasyLanguageLanding = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="display-large text-white mb-4">
-              Why Choose Easy Language?
+              Why Easy Language Is Perfect For You
             </h2>
             <p className="body-large text-gray-300 max-w-3xl mx-auto">
-              Designed with simplicity in mind, Easy Language removes the complexity 
-              from programming while maintaining the power you need.
+              Experience the power of a language built for speed, simplicity, and success. 
+              Here are the facts that make Easy Language revolutionary.
             </p>
           </div>
 
