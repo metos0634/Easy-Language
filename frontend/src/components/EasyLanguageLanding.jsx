@@ -8,11 +8,10 @@ import { Separator } from './ui/separator';
 import { 
   Code, 
   Zap, 
-  Shield, 
-  Globe, 
+  Users, 
+  Heart, 
   Download, 
   Star, 
-  Users, 
   Activity,
   ArrowRight,
   Menu,
