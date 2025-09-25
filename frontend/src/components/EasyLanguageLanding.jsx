@@ -13,8 +13,7 @@ import {
   Menu,
   X,
   Github,
-  BookOpen,
-  Play
+  BookOpen
 } from 'lucide-react';
 
 import { 
