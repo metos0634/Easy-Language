@@ -37,8 +37,8 @@ const EasyLanguageLanding = () => {
   const iconMap = {
     Code,
     Zap, 
-    Shield,
-    Globe
+    Users,
+    Heart
   };
 
   useEffect(() => {
