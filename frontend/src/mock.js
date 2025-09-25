@@ -2,8 +2,8 @@
 
 export const heroData = {
   title: "Easy Language",
-  subtitle: "The coding language designed for simplicity",
-  description: "Write powerful code with intuitive syntax. Easy Language (.ez) makes programming accessible to everyone while maintaining professional-grade capabilities.",
+  subtitle: "Fast. Easy. User-Friendly. Beginner's Best Friend.",
+  description: "The revolutionary coding language that's 10x faster than Python, 95% simpler than Java, and designed for everyone from complete beginners to seasoned developers.",
   shortcut: ".ez",
   version: "v2.1.0",
   downloadCount: "50K+",
