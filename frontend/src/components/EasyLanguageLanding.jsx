@@ -169,7 +169,7 @@ const EasyLanguageLanding = () => {
                       </div>
                       <CardTitle className="text-white">{feature.title}</CardTitle>
                     </div>
-                    <CardDescription className="text-gray-300">
+                    <CardDescription className="text-white">
                       {feature.description}
                     </CardDescription>
                   </CardHeader>
