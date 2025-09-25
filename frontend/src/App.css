@@ -10,10 +10,10 @@
   --bg-secondary: #121212;         /* Card/section backgrounds */
   --bg-overlay: rgba(255, 255, 255, 0.1); /* Subtle overlays */
   
-  /* Text - High Contrast for Dark Theme */
+  /* Text - All White for Easy Language */
   --text-primary: #FFFFFF;         /* Main headings and content */
-  --text-secondary: rgba(255, 255, 255, 0.85); /* Supporting text */
-  --text-muted: #4D4D4D;           /* Muted text, navigation */
+  --text-secondary: #FFFFFF;       /* Supporting text */
+  --text-muted: #FFFFFF;           /* Muted text, navigation */
   
   /* Borders - Subtle Dark Theme */
   --border-subtle: rgba(255, 255, 255, 0.25); /* Subtle separators */
