@@ -206,67 +206,6 @@ const EasyLanguageLanding = () => {
         </div>
       </section>
 
-      {/* Code Examples Section */}
-      <section id="examples" className="py-20 px-4 md:px-8">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="display-large text-white mb-4">
-              See Easy Language in Action
-            </h2>
-            <p className="body-large text-gray-300 max-w-3xl mx-auto">
-              Explore real code examples and see how Easy Language makes programming intuitive and fun.
-            </p>
-          </div>
-
-          <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-            <TabsList className="grid w-full grid-cols-3 bg-gray-900 mb-8">
-              <TabsTrigger value="hello" className="data-[state=active]:bg-brand-primary data-[state=active]:text-black">
-                Hello World
-              </TabsTrigger>
-              <TabsTrigger value="variables" className="data-[state=active]:bg-brand-primary data-[state=active]:text-black">
-                Variables & Functions
-              </TabsTrigger>
-              <TabsTrigger value="control" className="data-[state=active]:bg-brand-primary data-[state=active]:text-black">
-                Loops & Conditions
-              </TabsTrigger>
-            </TabsList>
-
-            {codeExamples.map((example, index) => (
-              <TabsContent 
-                key={example.id} 
-                value={['hello', 'variables', 'control'][index]}
-                className="space-y-4"
-              >
-                <Card className="bg-gray-900 border-gray-800">
-                  <CardHeader>
-                    <CardTitle className="text-white">{example.title}</CardTitle>
-                    <CardDescription className="text-gray-300">
-                      {example.description}
-                    </CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="bg-black p-6 rounded-lg border border-gray-800">
-                      <pre className="text-brand-primary font-mono text-sm overflow-x-auto leading-relaxed">
-                        {example.code}
-                      </pre>
-                    </div>
-                    <div className="flex justify-between items-center mt-4">
-                      <Badge variant="outline" className="border-brand-primary text-brand-primary">
-                        .{example.language} file
-                      </Badge>
-                      <Button className="btn-secondary" size="sm">
-                        <Play className="h-4 w-4 mr-2" />
-                        Run Code
-                      </Button>
-                    </div>
-                  </CardContent>
-                </Card>
-              </TabsContent>
-            ))}
-          </Tabs>
-        </div>
-      </section>
-
       {/* Stats Section */}
       <section className="py-20 px-4 md:px-8">
         <div className="max-w-6xl mx-auto">
@@ -279,7 +218,7 @@ const EasyLanguageLanding = () => {
                 <div className="text-lg font-semibold text-white mb-1">
                   {stat.label}
                 </div>
-                <div className="text-sm text-gray-400">
+                <div className="text-sm text-white">
                   {stat.description}
                 </div>
               </div>
