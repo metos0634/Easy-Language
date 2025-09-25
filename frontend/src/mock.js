@@ -13,40 +13,54 @@ export const heroData = {
 export const featuresData = [
   {
     id: 1,
-    title: "Intuitive Syntax",
-    description: "Write code that reads like natural language. No complex symbols or confusing structures.",
-    icon: "Code",
-    example: `create variable name as "John"
-print "Hello, " + name`,
-    highlight: "Natural language-like syntax"
+    title: "Fast. Speed.",
+    description: "Lightning-fast execution with optimized performance. Easy Language compiles to native code for maximum speed.",
+    icon: "Zap",
+    example: `// Executes in milliseconds
+for i from 1 to 1000000:
+    calculate fibonacci(i)
+// Completed in 0.3 seconds!`,
+    highlight: "10x faster than Python",
+    fact: "Executes 1M operations in under 0.3 seconds"
   },
   {
     id: 2,
-    title: "Zero Configuration",
-    description: "Start coding immediately. No setup, no dependencies, no configuration files needed.",
-    icon: "Zap",
-    example: `run file main.ez
-// That's it - your program runs!`,
-    highlight: "One command execution"
+    title: "Easy. Simple.",
+    description: "Write code that reads like plain English. No cryptic symbols, no complex syntax - just pure simplicity.",
+    icon: "Code",
+    example: `create variable age as 25
+if age is greater than 18:
+    print "You are an adult"
+else:
+    print "You are a minor"`,
+    highlight: "English-like syntax",
+    fact: "95% less syntax complexity than Java"
   },
   {
     id: 3,
-    title: "Built-in Safety",
-    description: "Memory-safe by design with automatic error handling and type checking.",
-    icon: "Shield",
-    example: `safe divide 10 by 0
-// Automatically handles division by zero`,
-    highlight: "Error-proof operations"
+    title: "User Friendly",
+    description: "Designed with developers in mind. Helpful error messages, smart autocomplete, and intuitive workflows.",
+    icon: "Users",
+    example: `// Smart error handling
+when error occurs:
+    show helpful message
+    suggest fix automatically
+    continue safely`,
+    highlight: "Intelligent assistance",
+    fact: "Reduces debugging time by 80%"
   },
   {
     id: 4,
-    title: "Cross-Platform",
-    description: "Write once, run everywhere. Easy Language works on Windows, macOS, and Linux.",
-    icon: "Globe",
-    example: `compile to windows
-compile to mac
-compile to linux`,
-    highlight: "Universal compatibility"
+    title: "Beginners Friend",
+    description: "Perfect for learning programming. Start coding in minutes with no prior experience required.",
+    icon: "Heart",
+    example: `// Your first program
+say "Hello World"
+
+// That's it! You're now a programmer!
+// No classes, no imports, no setup`,
+    highlight: "Learn in minutes, not months",
+    fact: "Students master basics 5x faster than traditional languages"
   }
 ];
 
