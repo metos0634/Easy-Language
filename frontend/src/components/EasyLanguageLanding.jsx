@@ -203,9 +203,15 @@ const EasyLanguageLanding = () => {
                         {feature.example}
                       </pre>
                     </div>
-                    <Badge variant="outline" className="mt-3 border-brand-primary text-brand-primary">
-                      {feature.highlight}
-                    </Badge>
+                    <div className="flex justify-between items-center mt-3">
+                      <Badge variant="outline" className="border-brand-primary text-brand-primary">
+                        {feature.highlight}
+                      </Badge>
+                      <div className="text-right">
+                        <div className="text-xs text-gray-400 font-semibold">Fact:</div>
+                        <div className="text-sm text-brand-primary">{feature.fact}</div>
+                      </div>
+                    </div>
                   </CardContent>
                 </Card>
               );
