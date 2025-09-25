@@ -119,10 +119,7 @@ const EasyLanguageLanding = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button className="btn-secondary">
-                <Play className="h-5 w-5 mr-2" />
-                Try Online
-              </Button>
+              {/* No buttons - clean hero section */}
             </div>
 
             {/* Stats */}
